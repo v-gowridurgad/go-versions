@@ -14,7 +14,7 @@ on:
 
 jobs:
   manifest:
-    uses: actions/versions-package-tools/.github/workflows/validate-manifest.yml@main
+    uses: actions/versions-package-tools/.github/workflows/validate-manifest.yml@dependabot/github_actions/actions/upload-artifact-7  
     with:
       tool-name: "Go"
       image-url: "https://go.dev/images/gopher-footer.jpg"
