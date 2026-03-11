@@ -6,7 +6,7 @@ on:
 
 jobs:
   get-new-go-versions:
-    uses: actions/versions-package-tools/.github/workflows/get-new-tool-versions.yml@main
+    uses: actions/versions-package-tools/.github/workflows/get-new-tool-versions.yml@dependabot/github_actions/actions/download-artifact-8    
     with:
       tool-name: "Go"
       image-url: "https://go.dev/images/gopher-footer.jpg"
