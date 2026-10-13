@@ -23,7 +23,7 @@ on:
 jobs:
   go:
     name: Go   
-    uses: v-priyagupta108/versions-package-tools/.github/workflows/build-tool-packages.yml@checksum-format
+    uses: v-priyagupta108/versions-package-tools/.github/workflows/build-tool-packages.yml@checksum-verification
     with:
       tool-name: "go"
       tool-version: ${{ inputs.VERSION || '1.19.0' }}
